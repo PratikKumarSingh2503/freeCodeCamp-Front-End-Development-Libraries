@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.App-header {
+  background-color: var(--body_background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--body_color);
+}
+.App-link {
+  color: var(--link-color);
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drum-pad{
+  border: 1px solid black;
+  width: 100px;
+  height:  100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
